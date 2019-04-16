@@ -1,0 +1,16 @@
+AutoExpression是整个项目的文件夹
+1 data文件夹：里面存放项目实验所需的数据
+2 images文件夹：里面存放描述项目实验的图片
+3 expression_utils.py文件：是一个python文件，里面存放实验所需的一些辅助函数
+4 model文件夹：里面存放已经训练好的模型，可以直接加载进行预测，以免多次从头开始训练
+5 Main.exe文件：可执行文件，运行可视化GUI进行演示
+6 AutoExpression.ipynb文件：是项目的主程序文件，是一个ipython notebook，里面记有项目的详细介绍与实现的两种算法
+
+使用说明：
+1 查看AutoExpression.ipynb：启动Jupyter Notebook后，打开AutoExpression.ipynb文件，依次运行notebook中的每个cell即可产生相应的输出结果
+（每个cell下已有相应的输出结果）
+2 运行Main.exe文件：在GUI上进行操作演示
+
+配置说明：
+1 依赖语言：python-3.6.5，ipython解释器
+2 依赖包：numpy，emoji，matplotlib，keras，tensorflow，csv，pandas，codecs，sklearn
